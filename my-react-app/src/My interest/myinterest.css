@@ -1,0 +1,185 @@
+.interest-container {
+  max-width: 700px;
+  margin: 60px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.interest-container h2 {
+  text-align: center;
+  color: #0b1d33;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.interest-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  padding: 14px;
+  background: #0b1d33;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #122b45;
+}
+
+
+.my-interest-card {
+  background: linear-gradient(135deg, #0b1d33, #122b45);
+  color: white;
+  padding: 50px 40px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.my-interest-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 28px 55px rgba(0, 0, 0, 0.35);
+}
+
+.my-interest-card h2 {
+  font-size: 32px;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+.my-interest-card p {
+  font-size: 15px;
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
+
+
+.explore-btn {
+  background: transparent;
+  color: white;
+  border: 2px solid #00c8ff;
+  padding: 14px 36px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all 0.35s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.explore-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(0, 200, 255, 0.6),
+    transparent
+  );
+  transition: left 0.4s ease;
+}
+
+.explore-btn:hover::before {
+  left: 100%;
+}
+
+.explore-btn:hover {
+  background: #00c8ff;
+  color: #0b1d33;
+  box-shadow: 0 0 25px rgba(0, 200, 255, 0.8);
+  transform: scale(1.05);
+}
+
+.interest-btn {
+  margin-top: 25px;
+  padding: 14px 34px;
+
+  background: transparent;
+  color: white;
+
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 30px;
+
+  cursor: pointer;
+  transition: all 0.35s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.interest-btn:hover {
+  background: white;
+  color: #0b1d33;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+
+.interest-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transition: 0.5s;
+}
+
+.interest-btn:hover::after {
+  left: 100%;
+}

@@ -1,0 +1,76 @@
+
+.airforce-page {
+  padding: 50px 80px;
+  background-color: aliceblue;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.8;
+  color: black;
+}
+
+
+.airforce-main-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid black;
+  letter-spacing: 1px;
+}
+
+
+.airforce-subtitle {
+  font-size: 20px;
+  color: navy;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.airforce-text {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+
+.airforce-list {
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+.airforce-list li {
+  margin-bottom: 8px;
+  padding-left: 5px;
+}
+
+
+.airforce-divider {
+  margin: 45px 0;
+  border: none;
+  height: 2px;
+  background-color: lightgray;
+}
+
+
+.airforce-footer {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: gray;
+  margin-top: 30px;
+}
+
+
+@media (max-width: 768px) {
+  .airforce-page {
+    padding: 25px;
+  }
+
+  .airforce-main-title {
+    font-size: 22px;
+  }
+
+  .airforce-subtitle {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,53 @@
+.navy-page {
+  padding: 50px 80px;
+  background-color: aliceblue;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.8;
+  color: black;
+}
+
+.navy-main-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.navy-subtitle {
+  font-size: 20px;
+  color: darkslateblue;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.navy-text {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.navy-list {
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+.navy-list li {
+  margin-bottom: 8px;
+}
+
+
+
+.navy-footer {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: gray;
+  margin-top: 30px;
+}
+
+
+
+
